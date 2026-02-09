@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Personal Online CV</title>
+	<style>
+	body {
+		font-family: Times New Roman, sans-serif;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #f9f9f9;
+		margin: 0;
+		padding: 20px;
+		}
+	section {
+		background: white;
+		padding: 40px;
+		border-radius: 10px;
+		box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+		max-width: 700px;
+		width: 100%;
+		box-sizing: border-box;
+		}
+
+	.profile-2x2 {
+		width: 200px; 
+		height: 200px;
+		object-fit: cover; 
+		display: block;
+		margin: 0 auto 20px auto;
+		border: 3px solid #0000FF;
+		border-radius: 15px;
+		}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		margin-top: 15px;
+		}
+	th, td {
+		border: 1px solid #0000FF;
+		padding: 10px;
+		text-align: center;
+		}
+
+</style>
+	
+</head>
+<body>
+	<main></main>
+		<section>
+		<header></header>
+	
+		<h1> Baclia-an, Honey Grace V.</h1>
+		<p>IT Student | WEB SYSTEMS AND TECHNOLOGIES</p>
+		<img src="C:\Users\Administrator\Mondule2-html\images\profile.jpg.jpg" alt="Profile photo" class="profile-2x2">
+		
+			<h1>ABOUT ME</h1>
+			<p>
+			Email:
+			<a href="mailto:bacliaan.honeygracegmail.com">bacliaan.honeygracegmail.com</a><br>
+			GitHub:
+			<a href="https://github.com/honeyyyyy18/bacliaan" target="_blank">github.com/honeyyyyy18/bacliaan</a>
+			</p>
+			<p> I’m Honey Grace V. Baclia-an, and you can call me 'Hani'. I’m 20 years old and currently living in Indahag, Poblacion, Cagayan de oro City.
+			I am pursuing a Bachelor of Science in Information Technology at the University of Science and Technology of Southern Philippines (USTP).
+			In my free time, I enjoy playing games like ML,watching movies, and dancing.</p>
+			
+			<h1>SKILLS</h1>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>Web Development
+					<ul>
+						<li>Frontend</li>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+						</ul>
+					
+						<li>Backend</li>
+					
+					</ul>
+				
+			</ul>
+			<h1>EDUCATION</h1>
+			<table border="1">
+			<tr>
+				<th>PROGRAM</th>
+				<th>INSTITUTION</th>
+				<th>YEAR GRADUATED</th>
+			<tr>
+			<tr>
+				<td>TVL-ICT</td>
+				<td>Indahag National High School</td>
+				<td>2023</td>
+				
+			</tr>
+			<tr>
+				<td>College of Information Technology and Computing</td>
+				<td>USTP - CDO Campus</td>
+				<td>2028</td>
+			</tr>
+			</table>
+			<h1> CONTACT ME</h1>
+			<form>
+			<input type="text" placeholder="Name"><br><br>
+			<input type="email" placeholder="Email"><br><br>
+			<textarea placeholder="Message"></textarea><br><br>
+			<button type="submit">SEND</button>
+			</form>
+			
+		</section>
+
+	<footer></footer>
+		<p>&copy; 2026 Baclia-an Honey Grace. All rights reserved.</p>
+</body>
+</html>
