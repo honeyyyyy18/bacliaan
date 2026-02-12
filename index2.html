@@ -3,59 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Personal Online CV</title>
-	<style>
-	body {
-		font-family: Times New Roman, sans-serif;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background-color: #f9f9f9;
-		margin: 0;
-		padding: 20px;
-		}
-	section {
-		background: white;
-		padding: 40px;
-		border-radius: 10px;
-		box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-		max-width: 700px;
-		width: 100%;
-		box-sizing: border-box;
-		}
+	<link rel="stylesheet" href="css/styles.css">
 
-	.profile-2x2 {
-		width: 200px; 
-		height: 200px;
-		object-fit: cover; 
-		display: block;
-		margin: 0 auto 20px auto;
-		border: 3px solid;
-		border-radius: 15px;
-		}
-
-	table {
-		width: 100%;
-		border-collapse: collapse;
-		margin-top: 15px;
-		}
-	th, td {
-		border: 1px solid;
-		padding: 10px;
-		text-align: center;
-		}
-
-</style>
-	
 </head>
 <body>
-	<main></main>
-		<section>
-		<header></header>
+	<div class="container">
+	<main>
+		
+		<header>
 	
+	<section class="header">
 		<h1> Baclia-an, Honey Grace V.</h1>
 		<p>IT Student | WEB SYSTEMS AND TECHNOLOGIES</p>
-		<img src="image/picturenihani.jpg" alt="Profile photo" class="profile-2x2">
-		
+		<img src="image/picturenihani.jpg" alt="Profile photo" class="profile-2x2" width="250">
+		</header>
+	</section>
+	
+	<section class="me">
 			<h1>ABOUT ME</h1>
 			<p>
 			Email:
@@ -63,10 +27,12 @@
 			GitHub:
 			<a href="https://github.com/honeyyyyy18/bacliaan" target="_blank">github.com/honeyyyyy18/bacliaan</a>
 			</p>
-			<p> I’m Honey Grace V. Baclia-an, and you can call me 'Hani'. I’m 20 years old and currently living in Indahag, Poblacion, Cagayan de oro City.
+			<p> I’m Honey Grace V. Baclia-an, and you can call me 'Hani'. I’m 20 years old and currently living in Poblacion Indahag, Cagayan de oro City.
 			I am pursuing a Bachelor of Science in Information Technology at the University of Science and Technology of Southern Philippines (USTP).
 			In my free time, I enjoy playing games like ML,watching movies, and dancing.</p>
-			
+		</section>
+
+		<section class="card">
 			<h1>SKILLS</h1>
 			<ul>
 				<li>HTML</li>
@@ -86,6 +52,9 @@
 					</ul>
 				
 			</ul>
+			</section>
+
+		<section class="education">
 			<h1>EDUCATION</h1>
 			<table border="1">
 			<tr>
@@ -124,16 +93,20 @@
 				<td>2028</td>
 			</tr>
 			</table>
+		</section>
+
+		<section class="contact">
 			<h1> CONTACT ME</h1>
 			<form>
 			<input type="text" placeholder="Name"><br><br>
 			<input type="email" placeholder="Email"><br><br>
-			<textarea placeholder="Message"></textarea><br><br>
+			<textarea type="text" placeholder="Message"></textarea><br><br>
 			<button type="submit">SEND</button>
 			</form>
-			
 		</section>
 
+	</main>
+</div>
 	<footer></footer>
 		<p>&copy; 2026 Baclia-an Honey Grace. All rights reserved.</p>
 </body>
