@@ -124,10 +124,35 @@ button:hover {
 }
 
 .dark-mode {
-    background-color: #222;
+    background-color: #226;
     color: white;
 }
 
 .hidden {
     display: none;
+}
+
+body.dark-mode .card {
+    background-color: #228;
+    color: white;
+}
+
+body.dark-mode .me {
+    background-color: #228;
+    color: white;
+}
+
+body.dark-mode .education {
+    background-color: #228;
+    color: white;
+}
+
+body.dark-mode .contact {
+    background-color: #228;
+    color: white;
+}
+
+body.dark-mode .header {
+    background-color: #228;
+    color: white;
 }
