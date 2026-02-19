@@ -5,14 +5,16 @@
 	<title>Personal Online CV</title>
 	<link rel="stylesheet" href="css/styles.css">
 
+
 </head>
 <body>
 	<div class="container">
 	<main>
 		
 		<header>
-	
+	<button id="themeToggle">Toggle Dark Mode</button>
 	<section class="header">
+		
 		<h1> Baclia-an, Honey Grace V.</h1>
 		<p>IT Student | WEB SYSTEMS AND TECHNOLOGIES</p>
 		<img src="image/picturenihani.jpg" alt="Profile photo" class="profile-2x2" width="250">
@@ -32,7 +34,8 @@
 			In my free time, I enjoy playing games like ML,watching movies, and dancing.</p>
 		</section>
 
-		<section class="card">
+		<button id="toggleSkills">Show/Hide Skills</button>
+		<section class="card" id="skillsSection">
 			<h1>SKILLS</h1>
 			<ul>
 				<li>HTML</li>
@@ -98,10 +101,10 @@
 		<section class="contact">
 			<h1> CONTACT ME</h1>
 			<form>
-			<input type="text" placeholder="Name"><br><br>
-			<input type="email" placeholder="Email"><br><br>
+			<input type="text" id="name" placeholder="Name"><br><br>
+			<input type="email" id="email" placeholder="Email"><br><br>
 			<textarea type="text" placeholder="Message"></textarea><br><br>
-			<button type="submit">SEND</button>
+			<button type="submit" id="submitBtn">SEND</button>
 			</form>
 		</section>
 
@@ -109,5 +112,6 @@
 </div>
 	<footer></footer>
 		<p>&copy; 2026 Baclia-an Honey Grace. All rights reserved.</p>
+			<script src="js/script.js"> </script>
 </body>
 </html>

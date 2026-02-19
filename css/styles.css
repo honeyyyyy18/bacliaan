@@ -122,3 +122,12 @@ button:hover {
     padding: 20px;
     margin-bottom: 20px;
 }
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
