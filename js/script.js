@@ -8,7 +8,6 @@ const toggleSkills = document.getElementById("toggleSkills");
 const skillsSection = document.getElementById("skillsSection");
 toggleSkills.addEventListener("click", function(){
     skillsSection.classList.toggle("hidden");
-    
 });
 
 submitBtn.addEventListener("click", function(event){
