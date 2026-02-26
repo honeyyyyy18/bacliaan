@@ -32,7 +32,8 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: personal-cv-react/dist
+          path: dist
+
 
   deploy:
     needs: build
