@@ -1,44 +1,43 @@
 function Contact() {
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const name = event.target.name.value;
+    const email = event.target.email.value;
+
+    if (name === "" || email === "") {
+      alert("Please fill in all required fields.");
+    } else {
+      alert("Form submitted successfully!");
+    }
+  };
+
   return (
     <section className="card contact">
-
       <h1>CONTACT ME</h1>
 
-      <form className="contact-form">
+      <form className="contact-form" onSubmit={handleSubmit}>
         <input
           type="text"
-          id="name"
+          name="name"
           placeholder="Name"
         />
 
         <input
           type="email"
-          id="email"
+          name="email"
           placeholder="Email"
         />
 
-        <textarea
-          placeholder="Message"
-        ></textarea>
+        <textarea placeholder="Message"></textarea>
 
-        <button type="submit" id="submitBtn">
+        <button type="submit">
           SEND
         </button>
       </form>
-
     </section>
   );
 }
-
-submitBtn.addEventListener("click", function(event){
-    event.preventDefault();
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value; 
-    if (name==="" || email===""){
-        alert("Please fill in all required fields.")
-    } else {
-        alert("Form submitted successfully!");
-    }
-});
 
 export default Contact;
