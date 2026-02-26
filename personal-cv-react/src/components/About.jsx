@@ -1,11 +1,9 @@
-import profilePic from "../assets/picturenihani.jpg";
-
 function About() {
   return (
     <section class="me">
 			<h1>ABOUT ME</h1>
 
-            <img src={profilePic} alt="Profile photo" />
+            <img src="/src/assets/picturenihani.jpg" alt="Profile photo" class="profile-2x2" width="250"></img>
 
 			<p>
 			Email:
