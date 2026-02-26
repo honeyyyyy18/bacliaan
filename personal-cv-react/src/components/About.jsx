@@ -3,7 +3,7 @@ function About() {
     <section class="me">
 			<h1>ABOUT ME</h1>
 
-            <img src="/personal-cv-react/public/picturenihani.jpg" alt="Profile photo" class="profile-2x2" width="250"></img>
+            <img src="/src/assets/picturenihani.jpg" alt="Profile photo" class="profile-2x2" width="250"></img>
 
 			<p>
 			Email:
