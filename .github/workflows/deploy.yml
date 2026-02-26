@@ -34,6 +34,7 @@ jobs:
         with:
           path: personal-cv-react/dist
 
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
