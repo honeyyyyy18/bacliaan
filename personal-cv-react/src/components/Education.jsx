@@ -1,51 +1,29 @@
-function Education() {
-    return (
+function Education({ education }) {
+  return (
+    <section className="card">
+      <h2>EDUCATION</h2>
 
-<section class="education">
-			<h1>EDUCATION</h1>
-			<table border="1">
-			<tr>
-				<th>PROGRAM</th>
-				<th>INSTITUTION</th>
-				<th>YEAR GRADUATED</th>
+      <table>
+        <thead>
+          <tr>
+            <th>PROGRAM</th>
+            <th>INSTITUTION</th>
+            <th>YEAR GRADUATED</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {education.map((item, index) => (
+            <tr key={index}>
+              <td>{item.program}</td>
+              <td>{item.school}</td>
+              <td>{item.year}</td>
             </tr>
-
-			<tr>
-				<td>KINDERGARTEN</td>
-				<td>Indahag Elementary School</td>
-				<td>2010</td>
-
-			</tr>
-
-			<tr>
-				<td>ELEMENTARY</td>
-				<td>Indahag Elementary School</td>
-				<td>2018</td>
-
-			</tr>
-
-			<tr>
-				<td>JUNIOR HIGH SCHOOL</td>
-				<td>Indahag National High School</td>
-				<td>2021</td>
-			</tr>
-
-			<tr>
-				<td>SENIOR HIGH SCHOOL</td>
-				<td>Indahag National High School</td>
-				<td>2024</td>
-			</tr>
-
-			<tr>
-				<td>COLLEGE</td>
-				<td>USTP - CDO Campus</td>
-				<td>2028</td>
-			</tr>
-
-			</table>
-		</section>
-
-    );
+          ))}
+        </tbody>
+      </table>
+    </section>
+  );
 }
 
 export default Education;

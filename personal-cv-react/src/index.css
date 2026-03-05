@@ -169,3 +169,14 @@ body.dark-mode .header {
   width: 70%;
   padding: 10px;
 }
+
+.card h2 {
+  text-align: center;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0b2a6f;
+}

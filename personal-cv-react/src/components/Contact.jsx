@@ -1,17 +1,13 @@
+import { useState } from "react";
+
 function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-
-    const name = event.target.name.value;
-    const email = event.target.email.value;
-
-    if (name === "" || email === "") {
-      alert("Please fill in all required fields.");
-    } else {
-      alert("Form submitted successfully!");
-    }
-  };
+  function handleSubmit(e) {
+    e.preventDefault();
+    alert(`Thank you ${name}!`);
+  }
 
   return (
     <section className="card contact">
@@ -20,14 +16,16 @@ function Contact() {
       <form className="contact-form" onSubmit={handleSubmit}>
         <input
           type="text"
-          name="name"
-          placeholder="Name"
+          placeholder="Enter your name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
         />
 
         <input
           type="email"
-          name="email"
-          placeholder="Email"
+          placeholder="Enter your email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
 
         <textarea placeholder="Message"></textarea>
