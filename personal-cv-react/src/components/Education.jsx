@@ -1,9 +1,9 @@
 function Education({ education }) {
   return (
     <section className="card">
-      <h2>EDUCATION</h2>
+      <h2 className="education-title">EDUCATION</h2>
 
-      <table>
+      <table className="education-table">
         <thead>
           <tr>
             <th>PROGRAM</th>
@@ -22,6 +22,7 @@ function Education({ education }) {
           ))}
         </tbody>
       </table>
+
     </section>
   );
 }

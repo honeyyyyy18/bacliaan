@@ -180,3 +180,25 @@ body.dark-mode .header {
   font-weight: bold;
   color: #0b2a6f;
 }
+
+.education-table th,
+.education-table td {
+  text-align: center;
+}
+
+.education-title{
+  color: #0b2a6f;
+}
+
+.dark-mode .education-title{
+  color: white;
+}
+
+.section-title{
+  color: #0b2a6f;
+  font-weight: bold;
+}
+
+.dark-mode .section-title{
+  color: white;
+}
