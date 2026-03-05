@@ -6,7 +6,11 @@ function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    alert(`Thank you ${name}!`);
+    if (name === "" || email === "") {
+      alert("Please fill in all required fields.");
+    } else {
+      alert("Form submitted successfully!");
+    }
   }
 
   return (
