@@ -3,6 +3,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
+import Contactlist from "./components/Contactlist";
 
 function App() {
   
@@ -28,7 +29,9 @@ const education = [
       <Skills skills={skills} />
       <Education education={education} />
       <Contact />
+      <Contactlist />
     </div>
+    
   );
 }
 
